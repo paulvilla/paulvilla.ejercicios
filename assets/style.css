@@ -12,9 +12,10 @@ body {
 div.content  {
     color: #fff;
     background-color: #0e0e0e6b;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 div.content h1  {
+    padding-top: 50px;
     font-size: 90px;
     text-align: center;
     font-family: "CrisParrafos";
