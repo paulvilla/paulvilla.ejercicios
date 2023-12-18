@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+    <script src="jquery.snow.js"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <title>Navidad en DAW</title>
+</head>
+<body onclick="PlayAudio()">
+    <div id="flake">❄</div>
+    <div class="content">
+        <h1>Felices Fiestas !!!</h1>
+        <P>Desde el curso Primero de DAW , les felicitamos las fiestas !!!</P>
+        <p>Click para escuchar</p>
+        
+        <p><i class="fi fi-rr-arrow-down"></i></p>
+        <audio id="reproduccion" autoplay controls loop >
+            <source src="https://github.com/paulvilla/paulvilla.github.io/raw/main/heavy.mp3" type="audio/mpeg" auto>
+            Your browser does not support the audio element.
+            </source>
+        </audio>
+        
+    </div>
+<script>
+    function PlayAudio() {
+        document.getElementById("reproduccion").play();
+    }
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+<script src="./assets/jquery.snow.js"></script>
+<script>
+    //$(document).ready( function(){
+    //    //$.fn.snow();
+    //    $.fn.snow({ minSize: 5, maxSize: 30, newOn: 150});
+    //});
+</script>
+</body>
+</html>

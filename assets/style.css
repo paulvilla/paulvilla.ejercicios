@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "CrisParrafos";
+    src: url("../assets/cris_parrafos.otf");
+}
+body {
+    background-image: url(../img/background_02.png);
+    background-position: center top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+div.content  {
+    top: 240px;
+    left: 120px;
+    color: #fff;
+    position: fixed;
+    width: 830px;
+    height: 510px;
+    background-color: #0e0e0eb8;
+    border-radius: 20px;
+}
+div.content h1  {
+    font-size: 90px;
+    text-align: center;
+    font-family: "CrisParrafos";
+}
+div.content p  {
+    font-size: 48px;
+    text-align: center;
+    font-family: "CrisParrafos";
+}
+audio {
+    bottom: 24px;
+    left: 268px;
+    position: absolute;
+}
+div i {
+    text-align: center;
+}
