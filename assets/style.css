@@ -3,19 +3,15 @@
     src: url("../assets/cris_parrafos.otf");
 }
 body {
-    background-image: url(../img/background_02.png);
+    background-image: url(../img/background_03.png);
+    background-color: #0a091f;
     background-position: center top; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
 div.content  {
-    top: 240px;
-    left: 120px;
     color: #fff;
-    position: fixed;
-    width: 830px;
-    height: 510px;
-    background-color: #0e0e0eb8;
+    background-color: #0e0e0e6b;
     border-radius: 20px;
 }
 div.content h1  {
@@ -28,10 +24,13 @@ div.content p  {
     text-align: center;
     font-family: "CrisParrafos";
 }
-audio {
+div.audio {
     bottom: 24px;
-    left: 268px;
-    position: absolute;
+    position: relative;
+    width: 300px;
+    height: 54px;
+    margin-left: auto;
+    margin-right: auto;
 }
 div i {
     text-align: center;
